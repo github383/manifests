@@ -1,0 +1,9 @@
+apiVersion: extensions/v1beta1
+kind: Ingress
+metadata:
+  name: ingress-service1
+spec:
+  backend: 
+    serviceName: httpd
+    servicePort: 80
+
